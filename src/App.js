@@ -1,9 +1,12 @@
 import React from 'react';
+// import {Posts} from "./components/PostsContainer/Posts/Posts";
+import {Launches} from "./components/LaunchesContainer/Launches/Launches";
 
 const App = () => {
     return (
         <div>
-            <h1>Hello</h1>
+            {/*<Posts/>*/}
+            <Launches/>
         </div>
     );
 };
